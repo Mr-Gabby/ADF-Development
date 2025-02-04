@@ -1,0 +1,17 @@
+{
+	"name": "PoolDB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"server": "learningsynapse.sql.azuresynapse.net",
+			"database": "datapool",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "gabriels",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDU4NDhCRDU2LTBDNDMtNDE2Qi04MTY1LUI5ODc3REY2Mjg1RF80ZTdlMzhjNy01NjdlLTQzOGUtOTkwNy1iZmRlZTFjODY3ZmIiDQp9"
+		}
+	}
+}
