@@ -1,0 +1,16 @@
+{
+	"name": "Poolactivity",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "PoolDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "PoolActivityLog"
+		}
+	}
+}
